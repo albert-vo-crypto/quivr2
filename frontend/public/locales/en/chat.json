@@ -11,7 +11,7 @@
     "resposeBodyNull": "Responde body is null",
     "receivedResponse": "Received response. Starting to handle stream...",
     "errorCallingAPI": "Error calling the API",
-    "ask": "Ask a question, or describe a task.",
+    "ask": "...",
     "begin_conversation_placeholder": "Begin conversation here...",
     "thinking": "Thinking...",
     "chat": "Chat",
@@ -28,9 +28,9 @@
     "shortcut_manage_brains": "CMDB: Manage your brains",
     "shortcut_go_to_user_page": "CMDU: Go to user page",
     "shortcut_go_to_shortcuts": "CMDK: Go to shortcuts",
-    "chat_title_intro": "Chat with your",
-    "empty_brain_title_prefix": "Upload files in a",
-    "empty_brain_title_suffix": "and chat with them",
+    "chat_title_intro": "ChatETH (Enhanced with Feedback Loops)",
+    "empty_brain_title_prefix": "Retrieval-Augmented Generation",
+    "empty_brain_title_suffix": "and ML Analysis",
     "actions_bar_placeholder": "Ask a question to @brains or /files and choose your #prompt",
     "missing_brain": "Please select a brain to chat with"
 }

@@ -43,6 +43,7 @@ export const FileUploader = (): JSX.Element => {
                 >
                   {t("dragAndDrop",{"ns":"upload"})}
                 </button>
+
               )}
             </div>
           </Card>

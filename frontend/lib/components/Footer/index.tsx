@@ -38,7 +38,7 @@ const Footer = (): JSX.Element => {
           rel="noopener noreferrer"
           aria-label="Quivr Discord"
         >
-          <img className="h-8 w-auto" src="/discord.svg" alt="Discord" />
+
         </a>
       </div>
     </footer>

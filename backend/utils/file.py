@@ -1,6 +1,7 @@
 import hashlib
 
 from fastapi import UploadFile
+from bitarray import bitarray
 
 
 def convert_bytes(bytes, precision=2):
@@ -38,3 +39,12 @@ def compute_sha1_from_file(file_path):
 def compute_sha1_from_content(content):
     readable_hash = hashlib.sha1(content).hexdigest()
     return readable_hash
+
+def convert_xlsx_to_csv(file_path):
+    with open(file_path, "rb") as file:
+        bytes = file.read()
+        bts = bitarray()
+        csv_file = bts.frombytes(bytes)
+        if bts is not None:
+            ascs = csv_file.tobytes().decode('ascii')
+    return csv_file

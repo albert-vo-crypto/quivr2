@@ -7,11 +7,11 @@ export const Logo = (): JSX.Element => {
       <Image
         className="rounded-full"
         src={"/logo.png"}
-        alt="Quivr Logo"
-        width={48}
-        height={48}
+        alt="ChatETH Logo"
+        width={96}
+        height={96}
       />
-      <h1 className="font-bold">Quivr</h1>
+      <h1 className="font-bold">ChatETH</h1>
     </Link>
   );
 };

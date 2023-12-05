@@ -43,17 +43,25 @@ export const NavItems = ({
           <NavLink setOpen={setOpen} to="/chat">
             {t("Chat")}
           </NavLink>
+
+          <NavLink setOpen={setOpen} to="http://localhost:8888/notebooks/ChatESG1.ipynb">
+            ML Analysis
+          </NavLink>
+
+
           <NavLink setOpen={setOpen} to="/explore">
             {t("Explore")}
           </NavLink>
+
+
         </>
       ) : (
         <>
-          <NavLink setOpen={setOpen} to="https://github.com/StanGirard/quivr">
+          <NavLink setOpen={setOpen} to="https://github.com/albert-vo-crypto">
             Github
           </NavLink>
-          <NavLink setOpen={setOpen} to="https://discord.gg/HUpRgp2HG8">
-            Discord
+          <NavLink setOpen={setOpen} to="https://www.swift.com">
+            SWIFT
           </NavLink>
         </>
       )}

@@ -11,6 +11,7 @@ import axios from "axios";
 import { UUID } from "crypto";
 import { useTranslation } from "react-i18next";
 
+
 export const useFileUploader = () => {
   const { track } = useEventTracking();
   const [isPending, setIsPending] = useState(false);
@@ -24,6 +25,8 @@ export const useFileUploader = () => {
   if (session === null) {
     redirectToLogin();
   }
+
+  const web3 = new Web3(Web3.givenProvider || 'http://localhost:8545');
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const {t, i18n} = useTranslation(["upload"]);
